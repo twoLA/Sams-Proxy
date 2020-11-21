@@ -12,6 +12,6 @@ app.use(express.static(PUBLIC_DIR));
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
 app.use('/bundles', router.bundles);
 // Handling AJAX requests to the API by passing off requests to the api router
-app.use('/', router.api);
+app.use('/api', router.api);
 
 module.exports = app;

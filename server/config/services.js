@@ -42,7 +42,7 @@
 
 module.exports = {
   // service1: {
-  //   api: '/listings/:id',
+  //   api: '/api/listings/:id',
   //   url: 'http://localhost:8010',
   //   bundle: '/listings/:id/bundle.js',
   // },
@@ -54,11 +54,11 @@ module.exports = {
   service3: {
     api: '/listings/:id',
     url: 'http://localhost:8010',
-    bundle: '/listings/:id/bundle.js',
+    bundle: '/bundle.js',
   },
-  // service4: {
-  //   api: 'FIX_ME',
-  //   url: 'http://localhost:3004',
-  //   bundle: 'app.js',
-  // },
+  service4: {
+    api: '/listings/:id',
+    url: 'http://localhost:8020',
+    bundle: '/bundle.js',
+  },
 };
