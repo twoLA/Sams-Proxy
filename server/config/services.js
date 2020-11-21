@@ -42,23 +42,23 @@
 
 module.exports = {
   // service1: {
-  //   api: '/api/listings/:id',
+  //   api: '/api/listings/:id/homesData',
   //   url: 'http://localhost:8010',
-  //   bundle: '/listings/:id/bundle.js',
+  //   bundle: '/gallery/:id/bundle.js',
   // },
-  // // service2: {
-  // //   api: 'FIX_ME',
-  // //   url: 'http://localhost:3002',
-  // //   bundle: 'app.js',
-  // // },
+  service2: {
+    api: '/listings/:id/listing',
+    url: 'http://localhost:8030',
+    bundle: '/carousel/:id/bundle.js',
+  },
   service3: {
-    api: '/listings/:id',
+    api: '/listings/:id/neighborhood*',
     url: 'http://localhost:8010',
-    bundle: '/bundle.js',
+    bundle: '/reviews/:id/bundle.js',
   },
   service4: {
-    api: '/listings/:id',
+    api: '/listings/:id/db',
     url: 'http://localhost:8020',
-    bundle: '/bundle.js',
+    bundle: '/mortgage/:id/bundle.js',
   },
 };
