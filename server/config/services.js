@@ -41,11 +41,11 @@
 */
 
 module.exports = {
-  // service1: {
-  //   api: '/api/listings/:id/homesData',
-  //   url: 'http://localhost:8010',
-  //   bundle: '/gallery/:id/bundle.js',
-  // },
+  service1: {
+    api: '/listings/:id/homesData',
+    url: 'http://localhost:8040',
+    bundle: '/gallery/:id/bundle.js',
+  },
   service2: {
     api: '/listings/:id/listing',
     url: 'http://localhost:8030',
