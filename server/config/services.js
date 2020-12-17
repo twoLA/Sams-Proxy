@@ -41,14 +41,14 @@
 */
 
 module.exports = {
-  service1: {
-    api: '/listings/:id/homesData',
-    url: 'http://54.151.124.17:8040/',
-    bundle: '/gallery/:id/bundle.js',
-  },
+  // service1: {
+  //   api: '/listings/:id/homesData',
+  //   url: 'http://54.151.124.17:8040/',
+  //   bundle: '/gallery/:id/bundle.js',
+  // },
   service2: {
-    api: '/listings/:id/listing',
-    url: 'http://13.56.19.216:8030/',
+    api: '/carousel/listing/:id',
+    url: 'http://54.183.243.60:8030/',
     bundle: '/carousel/:id/bundle.js',
   },
   service3: {
@@ -57,8 +57,8 @@ module.exports = {
     bundle: '/reviews/:id/bundle.js',
   },
   service4: {
-    api: '/listings/:id/db',
-    url: 'http://ec2-3-101-152-172.us-west-1.compute.amazonaws.com:8020/',
+    api: '/listings/:id/mortgage',
+    url: 'http://13.56.200.39:8020/',
     bundle: '/mortgage/:id/bundle.js',
   },
 };
