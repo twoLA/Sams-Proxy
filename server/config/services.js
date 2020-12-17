@@ -48,17 +48,17 @@ module.exports = {
   // },
   service2: {
     api: '/carousel/listing/:id',
-    url: 'http://54.183.243.60:8030/',
-    bundle: '/carousel/:id/bundle.js',
+    url: 'http://54.183.243.60:8030',
+    bundle: '/carousel/listing/:id/bundle.js',
   },
   service3: {
     api: '/listings/:id/neighborhood*',
-    url: 'http://3.138.140.28:8010/',
+    url: 'http://54.183.237.46:8010',
     bundle: '/reviews/:id/bundle.js',
   },
   service4: {
     api: '/listings/:id/mortgage',
-    url: 'http://13.56.200.39:8020/',
-    bundle: '/mortgage/:id/bundle.js',
+    url: 'http://13.56.200.39:8020',
+    bundle: '/listings/:id/bundle.js',
   },
 };
